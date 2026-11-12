@@ -30,16 +30,16 @@ app.get("/product/retrieve", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "product", "retrieve", "index.html"));
 });
 app.get("/review/create", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "review", "create", "index.html"));
+  res.sendFile(path.join(__dirname, "public", "review", "create", "create.html"));
 });
 app.get("/review/retrieve/all", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "review", "retrieve", "all", "index.html"));
+  res.sendFile(path.join(__dirname, "public", "review", "retrieve", "all", "retrieveAll.html"));
 });
 app.get("/review/update", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "review", "update", "index.html"));
+  res.sendFile(path.join(__dirname, "public", "review", "update", "update.html"));
 });
 app.get("/review/delete", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "review", "delete", "index.html"));
+  res.sendFile(path.join(__dirname, "public", "review", "delete", "delete.html"));
 });
 app.get("/admin/dashboard/salesOrderSummary", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "admin", "dashboard", "salesOrderSummary", "index.html"));
