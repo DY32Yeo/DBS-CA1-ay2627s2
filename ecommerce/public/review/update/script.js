@@ -8,3 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const username = localStorage.getItem("username") || "User";
     document.getElementById("navUsername").textContent = username;
 });
+
+function logout() {
+    localStorage.clear();
+    window.location.href = "/auth/login";
+}

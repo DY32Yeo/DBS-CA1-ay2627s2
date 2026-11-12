@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Write a Review – HydroMax Shop</title>
+  <link rel="stylesheet" href="/product/retrieve/style.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="nav-icon">💧</span>
+      <span>HydroMax Shop</span>
+    </div>
+    <div class="nav-links">
+      <span class="nav-welcome">Welcome, <strong id="navUsername">User</strong></span>
+      <a href="/product/retrieve" class="nav-link">Products</a>
+      <a href="/review/retrieve/all" class="nav-link">My Reviews</a>
+      <a href="/review/create" class="nav-link">Write a Review</a>
+      <button class="btn-logout" onclick="logout()">Logout</button>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="page-header-inner">
+      <h1>Write a Review</h1>
+      <p>Share your thoughts on a product you have bought</p>
+    </div>
+  </div>
+
+  <main class="main-content">
+    <div id="message" class="message hidden"></div>
+
+    <form id="reviewForm">
+      <!-- form fields to be added -->
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 HydroMax Shop · ST0525 Database Systems CA1</p>
+  </footer>
+
+  <script src="/review/create/script.js"></script>
+</body>
+</html>
